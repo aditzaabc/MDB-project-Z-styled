@@ -14,8 +14,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
+  <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+    
     </style>
   
 </head>
@@ -26,7 +30,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <!-- Container wrapper -->
   <div class="container-fluid">
-    <a class="navbar-brand" style="font-family: 'Michroma', sans-serif;">MDB-Project-Z</a>
+    <a class="navbar-brand cssanimation oaoFadeIn sequence" style="font-family: 'Michroma', sans-serif;">MDB-Project-Z</a>
     <!-- Toggle button -->
     <button
       class="navbar-toggler"
@@ -44,23 +48,23 @@
     <div class="collapse navbar-collapse" id="navbar-example">
       <!-- Left links -->
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#home">Home</a>
+        <li class="nav-item px-3" style="filter: drop-shadow(0px 10px 3px #1266F1);">
+          <a class="nav-link  cssanimation leBlurIn sequence" aria-current="page" href="#home">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+        <li class="nav-item px-3"  style="filter: drop-shadow(0px 10px 3px #39C0ED);">
+          <a class="nav-link  cssanimation leBlurIn sequence" href="#about">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#can_do">Can Do</a>
+        <li class="nav-item px-3"  style="filter: drop-shadow(0px 10px 3px #F93154);">
+          <a class="nav-link  cssanimation leBlurIn sequence" href="#can_do">Can Do</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#my_work">My Work</a>
+        <li class="nav-item px-3"  style="filter: drop-shadow(0px 10px 3px #FFA900);">
+          <a class="nav-link  cssanimation leBlurIn sequence" href="#my_work">My Work</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#clients">Clients</a>
+        <li class="nav-item px-3"  style="filter: drop-shadow(0px 10px 3px #00B74A);">
+          <a class="nav-link  cssanimation leBlurIn sequence" href="#clients">Clients</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact Me</a>
+        <li class="nav-item px-3"  style="filter: drop-shadow(0px 10px 3px #B23CFD);">
+          <a class="nav-link  cssanimation leBlurIn sequence" href="#contact">Contact Me</a>
         </li>
         <!-- Navbar dropdown
         <li class="nav-item dropdown">
@@ -148,8 +152,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-6 col-md-7 d-flex justify-content-center flex-column">
-                    <h2 class="lh-1 ls-tight fw-900 mb-1" style="font-size: 3.75rem;">Hi, my name is</h2>
-                    <h2 class="lh-1 ls-tight fw-900 text-primary mb-4" style="font-size: 3.75rem;">James Bourne</h2>
+                    <h2 class="lh-1 ls-tight fw-900 mb-1 cssanimation effect3d" style="font-size: 3.75rem;">Hi, my name is</h2>
+                    <h2 class="lh-1 ls-tight fw-900 text-primary mb-4 cssanimation leFadeIn sequence cssanimation effect3d" style="font-size: 3.75rem;">James Bourne</h2>
                     <p class="mt-1 pe-lg-5 me-lg-5 lead fw-normal text-muted">Anim aute id magna aliqua ad.</p>
                    <!-- <div class="buttons"> <a href="#!" type="button" class="btn  btn-primary btn-lg mt-4 me-2"
                         aria-controls="#picker-editor">Get Started</a> <a href="#!" type="button"
@@ -175,10 +179,10 @@
               }
             </style>
             <div class="row gx-0">
-              <div class="col-md-5 mb-4 mb-md-0">
+              <div class="col-md-5 mb-4 mb-md-0" data-aos="zoom-in-right">
                 <div class="d-flex py-md-5"> <img
                     src="img/pexels-craig-mckay-842943.jpg"
-                    class="w-100 rounded-5 shadow-3-strong" id="cta-img-nml-50" style="z-index: 10; filter: brightness(110%) contrast(110%) saturate(100%);" alt=""
+                    class="w-100 rounded-5 shadow-3-strong" id="cta-img-nml-50" style="z-index: 10; filter: brightness(110%) contrast(110%) saturate(100%); " alt=""
                     aria-controls="#picker-editor" draggable="false"> </div>
               </div>
               <div class="col-md-7 mb-4 mb-md-0">
@@ -231,9 +235,9 @@
               </div> -->
             </div>
             <div class="row justify-content-center">
-              <div class="col-xl-9">
+              <div class="col-xl-9" data-aos="zoom-in-up">
                 <div class="card">
-                  <div class="card-body">
+                  <div class="card-body"  id="card-flip">
                     <div class="row text-center">
                       <div class="col-md-4 mb-4 mb-md-0">
                         <h2 class="fs-1 text-primary fw-900">100%</h2>
@@ -272,7 +276,7 @@
               <div class="col-md-6 mb-5">
                 <div class="d-flex align-items-start">
                   <div class="flex-shrink-0">
-                    <div class="p-3 bg-primary rounded-4 shadow-2-strong"><i
+                    <div class="p-3 bg-primary rounded-4 shadow-2-strong"   data-aos="flip-left"  data-aos-delay="200"><i
                         class="fas fa-headset fa-lg text-white fa-fw" aria-controls="#picker-editor"></i></div>
                   </div>
                   <div class="flex-grow-1 ms-4">
@@ -286,7 +290,7 @@
               <div class="col-md-6 mb-5">
                 <div class="d-flex align-items-start">
                   <div class="flex-shrink-0">
-                    <div class="p-3 bg-danger rounded-4 shadow-2-strong"><i
+                    <div class="p-3 bg-danger rounded-4 shadow-2-strong" data-aos="flip-left" data-aos-delay="400"><i
                         class="fas fa-shield-alt fa-lg text-white fa-fw" aria-controls="#picker-editor"></i></div>
                   </div>
                   <div class="flex-grow-1 ms-4">
@@ -300,7 +304,7 @@
               <div class="col-md-6 mb-5">
                 <div class="d-flex align-items-start">
                   <div class="flex-shrink-0">
-                    <div class="p-3 bg-warning rounded-4 shadow-2-strong"><i
+                    <div class="p-3 bg-warning rounded-4 shadow-2-strong"  data-aos="flip-left" data-aos-delay="600"><i
                         class="fas fa-shipping-fast fa-lg text-white fa-fw" aria-controls="#picker-editor"></i></div>
                   </div>
                   <div class="flex-grow-1 ms-4">
@@ -314,7 +318,7 @@
               <div class="col-md-6 mb-5">
                 <div class="d-flex align-items-start">
                   <div class="flex-shrink-0">
-                    <div class="p-3 bg-success rounded-4 shadow-2-strong"><i
+                    <div class="p-3 bg-success rounded-4 shadow-2-strong"  data-aos="flip-left" data-aos-delay="800"><i
                         class="fas fa-hand-holding-usd fa-lg text-white fa-fw" aria-controls="#picker-editor"></i></div>
                   </div>
                   <div class="flex-grow-1 ms-4">
@@ -663,7 +667,7 @@
                   <div class="col-md-6 mb-5">
                     <div class="d-flex align-items-start">
                       <div class="flex-shrink-0">
-                        <div class="p-3 bg-primary rounded-4 shadow-2-strong"> <i
+                        <div class="p-3 bg-primary rounded-4 shadow-2-strong"  data-aos="flip-left" data-aos-delay="200"> <i
                             class="fas fa-headset fa-lg text-white fa-fw" aria-controls="#picker-editor"></i> </div>
                       </div>
                       <div class="flex-grow-1 ms-4">
@@ -676,7 +680,7 @@
                   <div class="col-md-6 mb-5">
                     <div class="d-flex align-items-start">
                       <div class="flex-shrink-0">
-                        <div class="p-3 bg-success rounded-4 shadow-2-strong"> <i
+                        <div class="p-3 bg-success rounded-4 shadow-2-strong"  data-aos="flip-left" data-aos-delay="400"> <i
                             class="fas fa-dollar-sign fa-lg text-white fa-fw" aria-controls="#picker-editor"></i> </div>
                       </div>
                       <div class="flex-grow-1 ms-4">
@@ -689,7 +693,7 @@
                   <div class="col-md-6 mb-5">
                     <div class="d-flex align-items-start">
                       <div class="flex-shrink-0">
-                        <div class="p-3 bg-info rounded-4 shadow-2-strong"> <i
+                        <div class="p-3 bg-info rounded-4 shadow-2-strong"  data-aos="flip-left" data-aos-delay="600"> <i
                             class="fas fa-newspaper fa-lg text-white fa-fw" aria-controls="#picker-editor"></i> </div>
                       </div>
                       <div class="flex-grow-1 ms-4">
@@ -702,7 +706,7 @@
                   <div class="col-md-6 mb-5">
                     <div class="d-flex align-items-start">
                       <div class="flex-shrink-0">
-                        <div class="p-3 bg-danger rounded-4 shadow-2-strong"> <i
+                        <div class="p-3 bg-danger rounded-4 shadow-2-strong"  data-aos="flip-left" data-aos-delay="800"> <i
                             class="fas fa-bug fa-lg text-white fa-fw" aria-controls="#picker-editor"></i> </div>
                       </div>
                       <div class="flex-grow-1 ms-4">
@@ -734,8 +738,10 @@
   <!-- MDB -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
+  <script type="text/javascript" src=" https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript">
-    
+    AOS.init();
   </script>
 </body>
 
